@@ -7,7 +7,7 @@ const int led = 2;
 const int pir = 14;
 int det = 0; //si detecta envia un uno
 //parametros del envio
-uint8_t broadcastAddress[] = {0xc0, 0x49, 0xef, 0xca, 0x38, 0xd0};
+uint8_t broadcastAddress[] = {0xc0, 0x49, 0x0f, 0x00, 0x00, 0x00};
 
 typedef struct struct_message {
   char a[32];
